@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "MyWebsiteApp",
+    "name": "SSFA",
     "slug": "MyWebsiteApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpeg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.jpeg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gauravsalian.MyWebsiteApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0da6cece-670f-4f7d-9eba-d5e7313ddb91"
+      }
     }
   }
 }
